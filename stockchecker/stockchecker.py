@@ -23,8 +23,9 @@ def main():
 	while True:
 		red.off()
 		green.off()
-		blue.off()
+		blue.on()
 		sold_out = check_stock(fetch_contents())
+        blue.off()
 		if sold_out:
 			red.on()
 		else:
