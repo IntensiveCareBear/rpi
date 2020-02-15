@@ -1,0 +1,1 @@
+This snippet checks Ubiquiti store for UDM Pro availability. It turns the RGB LED green if it's available, otherwise the LED is red. Modify LED ports accordingly. Also don't hammer their store with requests, they're good people.
