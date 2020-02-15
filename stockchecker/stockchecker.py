@@ -25,7 +25,7 @@ def main():
 		green.off()
 		blue.on()
 		sold_out = check_stock(fetch_contents())
-        blue.off()
+		blue.off()
 		if sold_out:
 			red.on()
 		else:
